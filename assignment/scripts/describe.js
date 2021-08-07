@@ -1,5 +1,5 @@
 // WHAT IS THIS EVEN DOING?
-
+   
 // For questions 1-3, each code block is syntactically and logically correct. Your job is to describe what is happening. 
 // They are in isolation -- variables in one question do not affect other questions.
 // Describe the code as it would be run, and make sure you give us the console.log's value at the end.
@@ -22,14 +22,16 @@ if (number >= 2) {
   console.log('yes');
 }
 
-*/
+/*
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called name and set it to Dane.
+// We check if name is equal to Mary.
+// Dane is not equal to Mary 
+// We console.log 'How do you do?;
+
+
 
 //CODE
 /*
@@ -41,14 +43,18 @@ if (name === 'Mary') {
   console.log('How do you do?');
 }
 
+/*
 
-*/
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+
+// We make a undefine variable called secret.
+We also declared a variable called a code and set it equal to 123 as a number
+// We checked if code is equal to 123. code is equal to 123, and set variable secret equal to 'super' as string.
+//We multiplied code variable by 2. code is now 246
+// We checked if code is greater than 250, and aslo set variable secret equal to 'duper' as string, but
+//this become false because code is now less than 250.
+// I console.log 'super'
 
 //CODE
 /*
@@ -70,10 +76,15 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
+// We make variable called isStudent and set it's value true as a boolean
+// We declared variable called age and set it's value 34 as a number
+// We aslo make variable called zip and set it equal to 55407 as a number
+// We checked if isStudent is equal to true and zip is greater than 80000.
+// We checked if isStudent is equal to false or age is less than 30.
+// We also checked isStudent is equal to true so. isStudent is equal to true so,
+// We console.log 'welcome to prime', and the code will excute before it goes the else code black.
 // 
-// 
-// 
-//
+
 
 //CODE
 /*
@@ -130,8 +141,12 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// It should be colorOne set to 'blue'
+// let colorOne = 'blue';
+// should mix = 'purple';
+
 let colorOne = 'red';
-let colorTwo = 'blue';
+let colorTwo = 'red';
 let mix = true;
 
 if (mix === true) {
@@ -144,6 +159,10 @@ if (mix === true) {
 // -- they are so we console.log 'throw away the food!'
 
 /*
+// temp is higher than 39 or time is greater than or equal to 4, but the instructions asks to make temp is
+higher than 39 and time is greater than or equal to 4.
+// Should be if (temp > 39 && time >= 4) {
+
 let temp = 40;
 const time = 4;
 
@@ -157,7 +176,10 @@ if (temp > 39 || time >= 4) {
 // -- it is, so we console.log 'enter'.
 
 /*
+// Should be if (age >= minAge){
+// console.log ('enter')
 let age = 21;
+
 const minAge = 21;
 
 if(minAge <= age) {
